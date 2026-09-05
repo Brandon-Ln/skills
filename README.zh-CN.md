@@ -1,16 +1,16 @@
 # Agent Skills
 
-English | [简体中文](README.zh-CN.md)
+[English](README.md) | 简体中文
 
-Agent Skills maintained and customized by Brandon.
+由 Brandon 个人维护和定制的 Agent Skills。
 
-## Installation
+## 安装
 
 ```bash
 npx skills add Brandon-Ln/skills --skill batch-grill-me
 ```
 
-List available skills, or install specifically for Codex:
+查看可用 skills，或指定安装到 Codex：
 
 ```bash
 npx skills add Brandon-Ln/skills --list
