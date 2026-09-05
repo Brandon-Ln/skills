@@ -12,6 +12,7 @@
     "url": "https://github.com/Brandon-Ln/skills/issues"
   },
   "scripts": {
+    "prepare": "simple-git-hooks",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "skills:list": "skills add Brandon-Ln/skills --list"
@@ -29,8 +30,17 @@
   },
   "devDependencies": {
     "@brandlen/prettier-config": "^1.1.3",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.9.6",
+    "simple-git-hooks": "^2.14.0",
     "skills": "^1.5.23"
   },
-  "prettier": "@brandlen/prettier-config"
+  "prettier": "@brandlen/prettier-config",
+  "simple-git-hooks": {
+    "pre-commit": "pnpm exec lint-staged",
+    "preserveUnused": true
+  },
+  "lint-staged": {
+    "*": "prettier --write --ignore-unknown"
+  }
 }
