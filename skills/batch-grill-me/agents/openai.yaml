@@ -1,5 +1,5 @@
 interface:
-  display_name: "批量澄清"
-  short_description: "通过多轮批量提问引导模糊想法，细化需求、补充上下文并形成具体方案"
+  display_name: '批量澄清'
+  short_description: '通过多轮批量提问引导模糊想法，细化需求、补充上下文并形成具体方案'
 policy:
   allow_implicit_invocation: true

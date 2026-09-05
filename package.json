@@ -1,0 +1,26 @@
+{
+  "name": "agent-skills",
+  "version": "1.0.0",
+  "private": true,
+  "description": "由 Brandon 维护、中文化和定制的 Agent Skills，支持通过 Vercel Skills CLI 安装。",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "agent-skills",
+    "skills-cli",
+    "codex",
+    "cursor",
+    "chinese"
+  ],
+  "author": {
+    "name": "Brandon Ln",
+    "url": "https://github.com/Brandon-Ln"
+  },
+  "devDependencies": {
+    "@brandlen/prettier-config": "^1.1.3",
+    "prettier": "^3.9.6"
+  },
+  "prettier": "@brandlen/prettier-config"
+}
