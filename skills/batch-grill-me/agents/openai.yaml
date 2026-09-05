@@ -1,0 +1,5 @@
+interface:
+  display_name: "批量澄清"
+  short_description: "通过多轮批量提问梳理方案的决策依赖，逐步澄清需求并达成共同理解"
+policy:
+  allow_implicit_invocation: false

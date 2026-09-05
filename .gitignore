@@ -1,0 +1,22 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Dependencies and caches
+node_modules/
+.pnpm-store/
+.cache/
+.eslintcache
+.prettiercache
+*.tsbuildinfo
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs and local environment
+*.log
+.env
+.env.*
+!.env.example
